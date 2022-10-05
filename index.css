@@ -1,0 +1,141 @@
+
+.navbar{
+    background-image: linear-gradient( to right, red,rgb(136, 5, 5),rgb(71, 2, 2)  ); 
+    height:5vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweens;
+}
+.hero-text{   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 36vw;
+}
+h1{
+    font-family: 'Rubik Dirt', 'cursive';
+    margin-left: 2vw;
+}
+h2{
+    margin-left: 33vw;
+    font-size: 71px;
+    color: aliceblue;
+    font-family: 'Rubik Dirt', 'cursive';
+}
+h3{
+    font-size: 31px;
+    color: aliceblue;
+}
+
+.card-header{
+    margin-left: 10vw;
+}
+.voir{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    height: 31px;
+    width: 160px;
+    margin-left: 45vw;
+}
+.hero-image{
+    background-image:url("./assets/images/salle-cinema.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.cardall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    
+    
+}
+.cardFilms{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardImg{
+    max-height: 45vh;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+    background-color: black; 
+    padding-bottom: 33px;
+}
+.footer{
+    background-image: linear-gradient(to right, rgb(71, 2, 2),rgb(136, 5, 5),red);
+    border-radius: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.iconeRs{
+    width: 63px;
+    height: 66px;
+}
+
+.resauxSociaux{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.iconeRS{
+    width: 4vw;
+} 
+
+
+
+.credit{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.credit a{
+    margin-top: 20vh;
+}
+
+.link{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.link a{
+    font-size: 1.5em;
+    color: white;
+}
+
+.lien{
+   
+    color: black;
+}
+
+
+.creditLink{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
